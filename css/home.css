@@ -185,6 +185,102 @@ transition: .77s;
 color: white;
 padding-top: 5px ;
 }
+/* start super offer sectionn */
+.supper-offer-section{
+    padding: 20px;
+    font-size: 1em;
+
+}
+.supper-offer-section .supper-offer-box{
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(29, 12, 12, 0.2);
+    border-radius: 5px ;
+    margin: 0 10px;
+
+}
+.supper-offer-section .supper-offer-box .supper-offer-box-title{
+    background-color: #e7443c;
+    display: inline-block;
+    padding: 8px 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.supper-offer-section .supper-offer-box .body{
+
+}
+.supper-offer-section .supper-offer-box .body .img-container{
+    text-align: center;
+    padding: 30px;
+}
+.supper-offer-section .supper-offer-box .body .img-container img{
+    width: 100%;
+
+}
+.supper-offer-section .supper-offer-box .body .specifiction{
+    padding: 30px 10px;
+}
+.supper-offer-section .supper-offer-box .body .specifiction  .price-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.supper-offer-section .supper-offer-box .body .specifiction  .price-row .price{
+    color: #444;
+    font-size: 1.2em;
+    margin-left: 70px;
+}
+.supper-offer-section .supper-offer-box .body .specifiction  .price-row .offer{
+    color: wheat;
+    background-color: #e7443c;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+.supper-offer-section .supper-offer-box .body .specifiction .title{
+    margin: 40px 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #444;
+
+}
+
+.supper-offer-section .supper-offer-box .body .specifiction .counterdown{
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.5em;
+}
+.supper-offer-section .supper-offer-box .body .specifiction .counterdown span{
+
+}
+.supper-offer-section .supper-offer-box .body .specifiction .remainder{
+    color: #888;
+    font-size: .9em;
+}
+
+.supper-offer-section .banner{
+    padding: 0 5px;
+ text-align: center;
+}
+.supper-offer-section .banner img{
+    width: 80%;
+    height: 42vh;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
