@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Store </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/home.css">
+ <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/animat.css">
+ <link rel="stylesheet" href="css/flexboxgrid.css">
+</head>
+<body>
+    <header>
+        <!-- start nav -->
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="fa fa-user"></i></a>
+                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                <a href=""><i class="fa fa-home"></i></a>
+                <a href=""><i class="fa fa-search"></i></a>
+
+            </div>
+            <div class="nav-left">
+                <div class="register-butn-nav">
+                    <i class="fa fa-user"></i>
+                    <a href="">ثبت نام /  ورود</a>
+                </div>
+
+            </div>
+        </nav>
+        <!-- end nav -->
+        <!-- start slider -->
+        <section class="slider">
+            <div class="slide">
+                <div class="item " id="slide1">
+                    <img src="imges/bg-5.jpg" alt="">
+                    <span>همین حالا شیک شوید...</span>
+                    
+                </div>
+                <div class="item active" id="slide2">
+                    <img src="imges/bg-6.jpg" alt="">
+                    <span>   خوشتیپ دنبال این بودی.... </span>
+
+                </div>
+                <div class="item" id="slide3">
+                    <img src="imges/blog4.jpg" alt="">
+                    <span style="color: red;">رویا هاتو دنبال کن...</span>
+
+                </div>
+            </div>
+
+                <div class="buttons">
+                    <i onclick="setslide('slide1' , 1)" class="fa fa-circle"></i>
+                    <i onclick="setslide('slide2' , 2)" class="fa fa-circle"></i>
+                    <i onclick="setslide('slide3' , 3)" class="fa fa-circle"></i>
+                </div>
+        </section>
+        <!-- end slider -->
+    </header>
+    <!-- end header -->
+    <!-- start main section -->
+    <main>
+        <div class="home-page-product">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-cart">
+                        <div class="img-sec">
+                            <img src="imges/gallery-1-big.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویزه</span>
+                            <div class="star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                             آیفون پرومکس
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">1000 افغانی</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-texty" href="">علاقه </a>
+                                    <a class="b-icon"  href=""><i class="fa fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-texty" href=""> خرید</a>
+                                    <a class="b-icon"  href=""><i class="fa fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end first cart -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-cart">
+                        <div class="img-sec">
+                            <img src="imges/gallery-7-big.jpg" alt="">
+                            <div class="star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            برند جدید مک 
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">45000 افغانی</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-texty" href="">علاقه </a>
+                                    <a class="b-icon"  href=""><i class="fa fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-texty" href=""> خرید</a>
+                                    <a class="b-icon"  href=""><i class="fa fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end second cart -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-cart">
+                        <div class="img-sec">
+                            <img src="imges/gallery-3-big.jpg" alt="">
+                            <div class="star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                         کمپیوتر مک
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">102200 افغانی</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-texty" href="">علاقه </a>
+                                    <a class="b-icon"  href=""><i class="fa fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-texty" href=""> خرید</a>
+                                    <a class="b-icon"  href=""><i class="fa fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end third cart -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-cart">
+                        <div class="img-sec">
+                            <img src="imges/gallery-2-big.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویزه</span>
+                            <div class="star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            ایقون پرومکس
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">10000 افغانی</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-texty" href="">علاقه </a>
+                                    <a class="b-icon"  href=""><i class="fa fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-texty" href=""> خرید</a>
+                                    <a class="b-icon" href=""><i class="fa fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end fourth cart -->
+            </div>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

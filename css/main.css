@@ -1,0 +1,18 @@
+
+    @font-face {
+        font-family: irn;
+        src: url(../fonts/IranNastaliq.ttf);
+    }
+*{
+    font-family: iran;
+    direction: rtl;
+    box-sizing: border-box;
+
+}
+body{
+    font-size: 16px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
