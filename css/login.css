@@ -1,0 +1,81 @@
+.login-container{
+background: radial-gradient(circle farthest-corner at 10% 20%, rgba(90,92,105,1) 1%,  rgba(32,45,58,1) 81%);
+padding: 2em;
+height: 97vh;
+}
+
+.login-container .login-box{
+ box-shadow: 0 3px 8px 2px rgba(0, 0, 0, .5);
+ background-color: rgba(250, 250, 250, .1);
+ border-radius: 5px;
+ font-size: 1.2em;
+ color: white;
+ padding: 30px 40px;
+}
+
+.login-container .login-box form{
+
+}
+.login-container .login-box form .input-group{
+    margin: 30px 0;
+
+}
+
+.login-container .login-box form input{
+    border: none;
+    border-radius: 20px;
+    border: 1px solid white;
+    background:none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px ;
+    outline: none;
+
+}
+.login-container .login-box label{
+    display: block;
+    padding: 5px 0;
+
+}
+.login-container .login-box form .cret-acount{
+
+}
+.login-container .login-box form .cret-acount a{
+    color: rgb(231, 101, 101);
+
+}
+.login-container .login-box form .sub-btn-log{
+    text-align: center;
+
+}
+.login-container .login-box form .sub-btn-log input{
+    border: none;
+    background-color: rgb(221, 46, 46);
+    padding: 10px 30px;
+    border-radius: 52px;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+    color: white;
+    cursor: pointer;
+
+}
+.sotioal-med{
+border-top: 1px solid rgba(255, 255, 255, .6);
+margin-top: 30px;
+padding-top: 10px;
+display: flex;
+justify-content: space-around;
+}
+.sotioal-med a{
+    color: white;
+    font-size: 1.6em;
+}
+.img-log{
+
+}
+.img-log img{
+width: 100%;
+}
+
+
