@@ -288,7 +288,7 @@ padding-top: 5px ;
 
 /* footer sections styles */
 footer{
- background-color: rgb(146, 141, 141);
+ background-color: #444;
  font-size: 1em;
  padding: 0%;
  overflow: hidden;
@@ -306,7 +306,7 @@ footer .right .title{
 
 }
 footer .right .decr{
-    color: rgb(216, 205, 205);
+    color: white;
     line-height: 1.2em;
 
 
@@ -334,7 +334,7 @@ font-size: 1.4em;
 
 footer .button{
  text-align: center ;
- background-color: rgb(88, 86, 86);
+ background-color: rgb(59, 56, 56);
  padding: 20px;
  color: rgba(255, 255, 255, .9);
 }
