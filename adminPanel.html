@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/panel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="panel">
+        <!-- right side of pannel -->
+        <div id="right">
+            <!-- menu -->
+            <section class="menu">
+                <div class="user-info">
+                    <div class="img-user">
+                        <img  src="imges/Arash.jpg" alt="">
+                        <span class="name">آرش حقدوست</span>
+                        <i onclick="toggleUserDetails()" class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="details">
+                        <div class="details-item">
+                            <span>سطح دسترسی</span>
+                            <span>ادمین</span>
+                        </div>
+                        <div class="details-item">
+                            <span> وضعیت</span>
+                            <span>آنلاین</span>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- menu buts -->
+                <div class="menu-btn">
+                    <a href="" class="item">
+                        <i class="fa fa-bell"></i>
+                        <span>محصولات</span>
+                    </a>
+                    <a href="" class="item">
+                        <i class="fa fa-"></i>
+                        <span>سفارش ها</span>
+                    </a>
+                    <a href="" class="item">
+                        <i class="fa fa-"></i>
+                        <span></span>
+                    </a>
+                    <a href="" class="item">
+                        <i class="fa fa-"></i>
+                        <span>گزارش ها</span>
+                    </a>
+                    <a href="" class="item">
+                        <i class="fa fa-"></i>
+                        <span>پیشتبانی</span>
+                    </a>
+                    <a href="" class="item">
+                        <i class="fa fa-"></i>
+                        <span>کاربران</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <!-- left side of panel -->
+        <div id="left">
+            <!-- start main box -->
+            <div class="main-box">
+                <header>
+                    <!-- start nav -->
+                    <div class="nav">
+                        <div class="right">
+                            <i onclick="togglePanel()" class="fa fap-togg"></i>
+                            <div class="search">
+                                <input type="text" name="" id="">
+                                <i class="fa fa-cog"></i>
+                            </div>
+                        </div>
+                        <!-- left side -->
+                        <div class="left">
+                            <a href=""></a><i class="fa fa-bell"></i>
+                            <a href=""></a><i class="fa fa-cog"></i>
+                            <a href=""></a><i class="fa fa-power"></i>
+                        </div>
+                    </div>
+                    <!-- end nav -->
+                    <!-- start mesage -->
+                    <div class="header-message">
+                        <h3>آخرین ورود دو روز پیش</h3>
+                        <a href="" class="long-btn">قارسی</a>
+                    </div>
+                    <!-- end mesage  -->
+                </header>
+                <!-- end header -->
+                <!-- start holder -->
+                <div class="holder">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="right">
+                                <i class="fa fa-cloipboard-list"></i>
+                            </div>
+                            <div class="left">
+                                <span>تکمل انبار</span>
+                                <span>۴۰۰</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="right">
+                                <i class="fa fa-cloipboard-list"></i>
+                            </div>
+                            <div class="left">
+                                <span>تکمل انبار</span>
+                                <span>۴۰۰</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="right">
+                                <i class="fa fa-cloipboard-list"></i>
+                            </div>
+                            <div class="left">
+                                <span>تکمل انبار</span>
+                                <span>۴۰۰</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="right">
+                                <i class="fa fa-cloipboard-list"></i>
+                            </div>
+                            <div class="left">
+                                <span>تکمل انبار</span>
+                                <span>۴۰۰</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- end row -->
+                    <!-- start revenu-box -->
+                    <div class="revenu-box">
+                        <div class="head">
+                            <div class="right">
+
+                            </div>
+                            <div class="left">
+                                <i class="fa fa-cog"></i>
+                                <i class="fa fa-redo"></i>
+                            </div>
+                        </div>
+                        <div class="contant">
+                            <canvas id="myChart" width="300" height="150"></canvas>
+                        </div>
+                    </div>
+                    <!-- end revenu-box -->
+
+                </div>
+                <!-- end older   -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

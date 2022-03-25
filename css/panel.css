@@ -1,0 +1,138 @@
+.panel{
+    display: grid;
+    grid-template-columns: 2fr 11fr;
+}
+.panel .right{
+
+}
+.panel .right .menu{
+    width: 100%;
+    min-height: 800px;
+    background-color: var(--color-bg-1) ;
+
+}
+.menu .user-info{
+
+}
+.menu .user-info .img-user{
+}
+.menu .user-info .img-user img{
+    width: 100px;
+}
+.menu .user-info .img-user span{
+
+}
+.menu .user-info .img-user i{
+}
+.menu .user-info .details{
+
+}
+.menu .user-info .details .details-item{
+
+}
+.menu .user-info .details .details-item span{
+}
+
+/* menu btns */
+.right .menu .menu-btn{
+
+}
+.right .menu .menu-btn .item{
+
+}
+.right .menu .menu-btn .item i{
+
+}
+.right .menu .menu-btn .item span{}
+
+/* left side */
+.left{
+
+}
+.left .main-box{
+ width: 100%;
+}
+.main-box header {
+    background-color: var(--color-bg-1) ;
+    font-size: 1em;
+    border : 1px solid var(--color-border-1);
+  }
+.left .main-box .nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.left .main-box .nav .right{
+
+}
+.left .main-box .nav .right i{
+
+}
+.left .main-box .nav .right .search{
+
+}
+.left .main-box .nav .right input{
+
+}
+.left .main-box .nav .right i{
+
+}
+.left .main-box .nav .left{
+    
+}
+.left .main-box .nav .left a{}
+/* start message header */
+.left .main-box .header-message{
+
+}
+.left .main-box .header-message h3{
+
+}
+.left .main-box .header-message a{
+
+}
+/* end header */
+
+/* start holder */
+.left .main-box .holder{
+
+}
+.left .main-box .holder{}
+.left .main-box .holder .right{}
+.left .main-box .holder .right i{}
+
+.left .main-box .holder .left{}
+.left .main-box .holder .left span{}
+
+/* staart revenu-boox */
+.left .main-box .holder .revenu-box{}
+.left .main-box .holder .revenu-box .head{}
+.left .main-box .holder .revenu-box .head .right{}
+.left .main-box .holder .revenu-box .head .left{}
+.left .main-box .holder .revenu-box .head .left i{}
+
+.left .main-box .holder .revenu-box .contant{
+
+}
+.left .main-box .holder .revenu-box .contant canvas{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
