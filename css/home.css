@@ -210,7 +210,8 @@ padding-top: 5px ;
     padding: 30px;
 }
 .supper-offer-section .supper-offer-box .body .img-container img{
-    width: 100%;
+    max-width: 100%;
+    overflow: scroll;
 
 }
 .supper-offer-section .supper-offer-box .body .specifiction{
@@ -257,10 +258,11 @@ padding-top: 5px ;
 .supper-offer-section .banner{
     padding: 0 5px;
  text-align: center;
+ padding-top: 1empx;
 }
 .supper-offer-section .banner img{
-    width: 80%;
-    height: 42vh;
+    width: 30%;
+    height: 10vh;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
 }
 /* start owl curousel styles */
@@ -288,6 +290,8 @@ padding-top: 5px ;
 footer{
  background-color: rgb(146, 141, 141);
  font-size: 1em;
+ padding: 0%;
+ overflow: hidden;
 
 }
 footer .right{
