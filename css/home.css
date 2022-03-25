@@ -159,7 +159,7 @@ transition: .77s;
     justify-content: space-between;
     align-items: center;
     margin-left: 5px;
-    background-color: rgb(233, 70, 5);
+    background-color:#e7443c;
     color: white;
     width: 60px;
     padding: 2px 12px;
@@ -229,7 +229,7 @@ padding-top: 5px ;
 }
 .supper-offer-section .supper-offer-box .body .specifiction  .price-row .offer{
     color: wheat;
-    background-color: #e7443c;
+    background-color:#e7443c;
     padding: 5px 20px;
     border-radius: 25px;
 }
