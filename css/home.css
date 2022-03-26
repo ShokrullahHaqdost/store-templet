@@ -256,14 +256,15 @@ padding-top: 5px ;
 }
 
 .supper-offer-section .banner{
-    
-    padding: 0 5px;
+    margin: 20px;
+    padding: 10px 5px;
     text-align: center;
 }
 .supper-offer-section .banner img{
     width: 30%;
-    height: 10vh;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+    border-radius: 100px !important;
+    
 }
 /* start owl curousel styles */
 .owl-stage-outer{
