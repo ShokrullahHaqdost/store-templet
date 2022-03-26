@@ -256,9 +256,9 @@ padding-top: 5px ;
 }
 
 .supper-offer-section .banner{
+    
     padding: 0 5px;
- text-align: center;
- padding-top: 1empx;
+    text-align: center;
 }
 .supper-offer-section .banner img{
     width: 30%;
@@ -309,8 +309,7 @@ footer .right .decr{
     color: white;
     line-height: 1.2em;
 
-
-}
+}  
 footer .left{
     padding: 40px;
 
